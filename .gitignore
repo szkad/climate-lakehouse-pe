@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.pbix.tmp
+*.pbix.bak
+
+# Don't commit large data — but DO commit a sample
+# (uncomment the next 3 lines to skip the data folder entirely)
+# data/raw/
+# data/bronze/
+# data/silver/
+# data/gold/
+
+# But always ignore intermediate cache
+*.parquet.crc
+.duckdb_swap
+
+# Prophet artifacts
+*.stan_files/
+*.pkl
+
+# Logs
+*.log
+
+# Environment variables
+.env

@@ -1,0 +1,118 @@
+{
+  "name": "Climate Lakehouse PE",
+  "dataColors": [
+    "#1D3557",
+    "#E63946",
+    "#2A9D8F",
+    "#F4A261",
+    "#264653",
+    "#A8DADC",
+    "#E76F51",
+    "#457B9D"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#264653",
+  "tableAccent": "#1D3557",
+  "good": "#2A9D8F",
+  "neutral": "#F4A261",
+  "bad": "#E63946",
+  "maximum": "#E63946",
+  "center": "#F4A261",
+  "minimum": "#1D3557",
+  "null": "#CCCCCC",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#264653"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#1D3557"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#264653"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#264653"
+    },
+    "largeTitle": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 20,
+      "color": "#1D3557"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E0E0E0" } },
+            "radius": 4
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#264653" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "alignment": "left",
+            "background": { "solid": { "color": "#FFFFFF" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#264653" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 11
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1D3557" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 36
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [
+          {
+            "lineThickness": 2,
+            "showMarker": false
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "fill": { "solid": { "color": "#1D3557" } }
+          }
+        ]
+      }
+    }
+  }
+}

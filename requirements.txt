@@ -1,0 +1,6 @@
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0
+duckdb>=0.10
+matplotlib>=3.7
+prophet>=1.1
