@@ -293,6 +293,14 @@ MIT — ver [LICENSE](LICENSE)
 
 ---
 
+## 🌶️ Proyecto relacionado
+
+Si te interesa BI aplicado a la cadena de valor completa de una agroexportadora peruana (cosecha → planta → exportación), revisa también:
+
+**[piquillo-bi-platform-peru](https://github.com/szkad/piquillo-bi-platform-peru)** — Plataforma BI end-to-end con SQL Server DW, ETL con stored procedures y Power BI con Row-Level Security.
+
+---
+
 ## 🙏 Agradecimientos
 
 - **Davis Instruments** por el esquema de referencia del Vantage Pro 2
