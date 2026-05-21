@@ -35,8 +35,6 @@ Arquitectura lakehouse moderna para analítica climática en agroindustria perua
 | **4. Alertas Climáticas** | Eventos extremos detectados (calor, lluvia, viento, UV) | KPIs por tipo, treemap, distribución mensual |
 | **5. Pronóstico** | Forecast a 30 días (Prophet) para temperatura y ETP | Series de tiempo con bandas de confianza, tabla detallada |
 
----
-
 ### Capturas
 
 #### 1. Overview
