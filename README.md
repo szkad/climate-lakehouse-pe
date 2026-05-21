@@ -35,22 +35,42 @@ Arquitectura lakehouse moderna para analítica climática en agroindustria perua
 | **4. Alertas Climáticas** | Eventos extremos detectados (calor, lluvia, viento, UV) | KPIs por tipo, treemap, distribución mensual |
 | **5. Pronóstico** | Forecast a 30 días (Prophet) para temperatura y ETP | Series de tiempo con bandas de confianza, tabla detallada |
 
+---
+
 ### Capturas
 
+#### 1. Overview
+*Vista general del clima regional: KPIs, mapa coroplético y series de tiempo de las 4 estaciones del corredor agroexportador.*
+
 ![Overview](docs/screenshots/01_overview.png)
-*Página 1 — Vista general del clima regional*
+
+---
+
+#### 2. El Niño 2023-24
+*El Niño Costero 2023 multiplicó la lluvia por ~70x en algunas zonas (ej: marzo 2023 en zona Pre-Andina: 293mm vs ~4mm normal). La página documenta el impacto del Yaku y el Niño Global.*
 
 ![El Niño](docs/screenshots/02_el_nino.png)
-*Página 2 — Impacto documentado del Yaku y Niño Global*
+
+---
+
+#### 3. Gestión Hídrica
+*El balance hídrico es estructuralmente negativo en la costa norte: la ETP supera la precipitación en 92 de 96 meses-estación (~96% del tiempo). La página incluye recomendación prescriptiva de riego.*
 
 ![Gestión Hídrica](docs/screenshots/03_water.png)
-*Página 3 — Balance hídrico con recomendación prescriptiva*
+
+---
+
+#### 4. Alertas Climáticas
+*Sistema de detección automatizada de eventos extremos: calor, lluvia, viento y UV. Treemap por tipo y distribución mensual.*
 
 ![Alertas](docs/screenshots/04_alerts.png)
-*Página 4 — Sistema automatizado de detección de eventos extremos*
+
+---
+
+#### 5. Pronóstico
+*Forecast a 30 días con Prophet (Meta) para temperatura y ETP, incluyendo bandas de confianza al 80%. La predicción indica ETP > 7 mm/día sostenido en todas las estaciones, señalando requerimientos críticos de riego.*
 
 ![Pronóstico](docs/screenshots/05_forecast.png)
-*Página 5 — Pronóstico con Prophet (Meta)*
 
 ---
 
@@ -226,15 +246,6 @@ La mayoría de proyectos BI son descriptivos (¿qué pasó?). Los proyectos BI t
 - Páginas 1, 2, 4 → **Descriptivo**
 - Página 5 → **Predictivo** (forecast con Prophet)
 - Página 3 → **Prescriptivo** (recomendación de riego)
-
----
-
-## 📈 Insights de muestra del dashboard
-
-- **El balance hídrico es estructuralmente negativo** en la costa norte peruana: la ETP supera la precipitación en 92 de los 96 meses-estación del período (~96% del tiempo).
-- **El Niño Costero 2023 multiplicó la lluvia por 70x** en algunas zonas (ej: marzo 2023 en zona Pre-Andina: 293mm vs ~4mm normal).
-- **La zona Pre-Andina recibe el impacto más extremo** de los eventos del Niño costero, consistente con el comportamiento documentado de las estribaciones que amplifican las lluvias costeras.
-- **El forecast para los próximos 30 días predice ETP > 7 mm/día** en todas las estaciones, indicando requerimientos sostenidos de riego intensivo.
 
 ---
 
