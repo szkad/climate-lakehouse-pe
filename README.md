@@ -281,11 +281,15 @@ MIT — ver [LICENSE](LICENSE)
 
 ## 👤 Autor
 
-**Alexis Zapata** — Analista BI | Sullana, Perú
+**Alexis Zapata** — Analista de Datos | BI en Agroindustria | Sullana, Perú
+
+- 6 campañas en agroindustria peruana (Virú Group, 2020-2025)
+- Bachiller en Ingeniería Informática — Universidad Nacional de Piura
+- Certificación: Google Advanced Data Analytics (2026)
+- LinkedIn: [alexiszapata19](https://www.linkedin.com/in/alexiszapata19/)
 - GitHub: [@szkad](https://github.com/szkad)
-- Background: 5+ años en agroindustria del norte peruano
-- Stack: Power BI, DAX, SQL, Python, DuckDB, Parquet, Power Query
-- Certificaciones: Google Advanced Data Analytics (Abril 2026)
+
+**Stack:** Power BI · DAX · Tabular Editor · SQL Server · Python · DuckDB · Parquet · Prophet · Power Query
 
 ---
 
